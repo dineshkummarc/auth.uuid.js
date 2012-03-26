@@ -69,4 +69,4 @@
 	exports.AuthUUID = AuthUUID ;
 
 // DOM or node.js scope export
-})(window||exports) ;
+})(typeof window!='undefined'?window:exports) ;
